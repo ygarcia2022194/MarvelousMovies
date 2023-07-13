@@ -52,9 +52,9 @@ body{
 
 /** Img header **/
 .img-header{
-    background: url(../../images/Marvel_Cinematic_Universe_logo.png);
+    background: url(../../images/noticiasMarvel.jpg);
     background-attachment: fixed;
-    background-position: center;
+    background-position: -2;
     background-size: cover;
     background-color: rgba(0,0,0,0.6);
     background-blend-mode: soft-light;
