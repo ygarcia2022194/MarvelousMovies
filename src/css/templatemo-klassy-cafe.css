@@ -170,6 +170,15 @@ body {
 .main-text-button a:hover {
   opacity: 0.9;
 }
+.col-4 img{
+  width: 50px;
+  height: 200px;
+}
+
+.thumb img{
+  width: 600px;
+  height: 530px;
+}
 
 .section-heading h6 {
   position: relative;
@@ -656,8 +665,10 @@ banner
   padding: 0px;
 }
 
+
+
 #top .left-content {
-  background-image: url(../images/top-left-bg.jpg);
+  background-image: url(../../src/images/top-left-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -923,19 +934,22 @@ menu
 }
 
 .card1 {
-  background-image: url(../images/menu-item-01.jpg);
+  background-image: url(../../src/images/captain-america.jpg);
 }
 .card2 {
-  background-image: url(../images/menu-item-02.jpg);
+  background-image: url(../../src/images/Iron_Man.jpg);
 }
 .card3 {
-  background-image: url(../images/menu-item-03.jpg);
+  background-image: url(../../src/images/Capitaan_Amaerica_El_Soldado_de_Invierno.jpg);
 }
 .card4 {
-  background-image: url(../images/menu-item-04.jpg);
+  background-image: url(../../src/images/Capitaan_Amaerica_Civil_War.jpg);
 }
 .card5 {
-  background-image: url(../images/menu-item-05.jpg);
+  background-image: url(../../src/images/vengadores-infinity-war.jpg);
+}
+.card6 {
+  background-image: url(../../src/images/doctorStrange.jpeg);
 }
 
 .info {
@@ -1105,6 +1119,7 @@ chefs
 #chefs .chef-item .thumb .overlay {
   position: absolute;
   background-color: #2a2a2a;
+  color: #FFF;
   border-radius: 3px;
   top: 0;
   bottom: 0;
@@ -1411,6 +1426,10 @@ offers
   text-align: left;
   display: inline-block;
   transition: all 0.3s;
+}
+.tab-item img{
+  width: 50px;
+  height: 100px;
 }
 #offers .tabs-content .tab-item {
   position: relative;
